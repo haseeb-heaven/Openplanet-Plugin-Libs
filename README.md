@@ -1,5 +1,5 @@
 # Openplanet-Plugin-Libs
-This repo consists list of Helper libraries for [Openplanet](https://openplanet.nl) plugins written in [AngelScripts](https://www.angelcode.com/angelscript/), it contains  Utilities for both [OpenPlanet Api](https://openplanet.nl/docs) and [TrackMania Next Api](https://next.openplanet.nl/) which you can include in your Scripts and write plugins easily.
+This repo consists list of Helper libraries for [Openplanet](https://openplanet.nl) plugins written in [AngelScripts](https://www.angelcode.com/angelscript/), it contains  Utilities for both [OpenPlanet Api](https://openplanet.nl/docs) and [TrackMania 2020 Api](https://next.openplanet.nl/) which you can include in your Scripts and write plugins easily.
 
 ## [Openplanet](https://openplanet.nl) API Information.
 Utils `OpUtils.as` is utilities for different Api like _Core,Time,Net,Meta,Json,Net_ and more this provide helper methods
@@ -19,14 +19,14 @@ List of Available Helper Api's.
 - [Meta Api](https://openplanet.nl/docs/group/Meta) - Plugin Scripts helper methods.
 
 ## [Openplanet](https://openplanet.nl) API Examples.
-File `examples\Plugin_OpUtilsDemo.as` contains examples of using this Api.
+[Plugin_OpUtilsDemo.as](https://github.com/haseeb-heaven/Openplanet-Plugin-Libs/blob/main/examples/Plugin_OpUtilsDemo.as) contains examples of using this Api.
 
-## [TrackManiaNext 2020](https://www.trackmania.com/) API Information.
+## [TrackMania 2020](https://www.trackmania.com/) API Information.
 Utils `TmUtils.as` is utilities for different Api like _Core,Time,Net,Meta,Json,Net_ and more this provide helper methods
 to interact with Api's safe and easily.
 
 ### How to Access Api Helper methods.
-To access Api's helper methods check [TrackMania Next Api Docs](https://next.openplanet.nl/) and see its file structure.
+To access Api's helper methods check [TrackMania 2020 Api Docs](https://next.openplanet.nl/) and see its file structure.
 If you wish to access _Game Api_ helper methods then write<br/>
 _TmUtils::_**Api-Name**_::HelperMethod()_ <br/>
 example : `auto rootMap = TmUtils::Game::GetRootMap();`<br/>
@@ -44,11 +44,11 @@ List of Available Helper Api's.
 - [System Api](https://next.openplanet.nl/System) - System Display helper methods.
 - [MetaNotPersistent Api](https://next.openplanet.nl/MetaNotPersistent) - Game Scene helper methods.
 
-## [TrackManiaNext 2020](https://www.trackmania.com/) API Examples.
-File `examples\Plugin_TmUtilsDemo.as` contains examples of using this Api.
+## [TrackMania 2020](https://www.trackmania.com/) API Examples.
+[Plugin_TmUtilsDemo.as](https://github.com/haseeb-heaven/Openplanet-Plugin-Libs/blob/main/examples/Plugin_TmUtilsDemo.as) contains examples of using this Api.
 
 ## Logger library Information.
-Library `Logger.as` is the logger library with **trace,warn,err** debuuging levels.
+Library `Logger.as` is the logger library with **trace,warn,err** debugging levels.
 
 List of Public Methods.
 
@@ -68,6 +68,9 @@ List of Public Methods.
 ### Examples.
 Folder `examples` contains various examples of TrackMania and OpenPlanet Utils.
 
+### Plugin on Openplanet
+This library available as [Plguin on Openplanet](https://openplanet.nl/files/155) as well.
+
 `Logger Demo output.`
 ![Logger_Demo](https://i.ibb.co/k121BbC/Open-Logger.png)
 
@@ -75,10 +78,10 @@ Folder `examples` contains various examples of TrackMania and OpenPlanet Utils.
 If you wish to contribute to this project then please do **PR** request and maintain the same strucute of Api directories.
 
 **VERSION INFO :**<br/>
-Utilites Version 1.0      Dated : 12/22/2021.<br/>
+Utilities Version 1.0      Dated : 12/22/2021.<br/>
 
 **CHANGE LOGS FOR V 1.0** <br/>
-**[+]** Added Utils for **Openplanet** and **TrackMania-Next 2020**.<br/>
+**[+]** Added Utils for **Openplanet** and **TrackMania 2020**.<br/>
 **[+]** Added Examples for both Utils in `examples` folder.<br/>
 **[+]** Updated **Logger** library. <br/>
 
